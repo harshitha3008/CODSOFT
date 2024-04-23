@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mukta", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+header .header-section {
+    background-color: #ac3d5b;
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.left-section {
+    display: flex;
+    padding-left: 100px;
+}
+
+.center-section {
+    flex: 2;
+    text-align: center;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+}
+
+.social-icons li {
+    list-style: none;
+    margin-right: 30px;
+    position: relative;
+}
+
+.social-icons li a {
+    color: #fff;
+    font-size: 2em;
+    color: #ccc;
+}
+
+.social-icons li a:hover {
+    color: #fff;
+}
+
+.contact-info {
+    margin-top: 23px;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+.donate-btn {
+    background-color: #5b7fac;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+
+.donate-btn:hover {
+    color: #ac3d5b;
+}
+
+/* Header-2 */
+
+.header-top {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.logo-section {
+    display: flex;
+    padding-left: 250px;
+    padding-right: 100px;
+    margin-top: 0px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.navigation-section {
+    flex: 2;
+    text-align: center;
+    margin-right: 25px;
+    letter-spacing: 2px;
+}
+
+.navigation-section .main-nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navigation-section .main-nav li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.navigation-section .main-nav li:last-child {
+    margin-right: 0;
+}
+
+.navigation-section .main-nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Search section */
+
+.search-section li {
+    list-style: none;
+    margin-right: 300px;
+    position: relative;
+}
+
+.search-section li a {
+    color: black;
+    font-size: 3em;
+    color: black;
+}
+
+.search-section li a:hover {
+    color: rgb(216, 16, 16);
+}
+
+.first-section {
+    background-color: #fff;
+    padding: 0px;
+    height: 79vh;
+}
+
+.image-container {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    animation: slideIn 1s ease-in-out forwards;
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: 79vh;
+    object-fit: cover;
+    opacity: 100%;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.about-section {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    max-width: 900px;
+    margin: o auto;
+    padding: 100px;
+}
+
+.column {
+    flex: 1;
+    margin-right: 100px;
+}
+
+.column:last-child {
+    margin-right: 200px;
+}
+
+.left {
+    text-align: left;
+    padding-right: 50px;
+}
+
+.right {
+    text-align: right;
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ac3d5b;
+    text-decoration: none;
+}
+
+.underline {
+    text-decoration: none;
+    border-bottom: 5px solid rgb(135, 39, 55);
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.content h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5b7fac;
+}
+
+.content p {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: black;
+}
+
+.right img {
+    width: 350px !important;
+    height: 320px !important;
+    border-radius: 50%;
+}
+
+.services-section {
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+}
+
+.content-1 {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.content-1 h1 {
+    font-size: 2.5rem;
+    font-weight: 600px;
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.column img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+}
+
+.column img:hover {
+    transform: scale(1.1);
+}
+
+.column h3 {
+    margin-top: 20px;
+    color: beige;
+    object-fit: contain;
+}
